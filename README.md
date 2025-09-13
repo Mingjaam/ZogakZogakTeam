@@ -358,10 +358,138 @@ echo "GEMINI_API_KEY=your_gemini_api_key_here" > frontend/.env.local
 
 ## 🤖 AI 기능
 
-- **이미지 인식**: Google Gemini AI를 활용한 사진 분석
-- **인물 인식**: 촬영된 사진에서 인물 자동 인식
-- **감정 분석**: 일기 내용의 감정 상태 분석
-- **스마트 분류**: 사진 자동 분류 및 태깅
+- **👥 얼굴 인식**: 사진에서 인물을 자동으로 식별
+- **😊 감정 분석**: 일기 내용의 감정 상태 분석
+- **🔍 얼굴 감지**: 이미지에서 얼굴 존재 여부 확인
+- **📊 감정 점수**: 상세한 감정 점수 분석
+
+### 🚀 기술 스택
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Google_Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini"/>
+  <img src="https://img.shields.io/badge/npm-FFFFFF?style=for-the-badge&logo=npm&logoColor=red" alt="npm"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+</p>
+
+- **Language**: TypeScript 5.0+
+- **AI Platform**: Google Gemini 2.5 Flash
+- **Package Manager**: npm
+- **Environment**: Vite/Node.js
+
+
+### 📚 기본 사용법
+#### 얼굴 인식 사용법
+
+```typescript
+import { identifyPerson, Person } from './ai-module';
+
+// 알고 있는 사람 목록
+const knownPeople: Person[] = [
+  {
+    id: '1',
+    name: '김할머니',
+    relationship: '어머니',
+    photo: 'base64_encoded_image_data'
+  },
+  {
+    id: '2', 
+    name: '이할아버지',
+    relationship: '아버지',
+    photo: 'base64_encoded_image_data'
+  }
+];
+
+// 새로운 사진에서 사람 식별
+const targetImageBase64 = 'base64_encoded_target_image';
+
+try {
+  const result = await identifyPerson(targetImageBase64, knownPeople);
+  console.log('식별된 사람:', result); // "김할머니", "모르는 사람", "사람 없음"
+} catch (error) {
+  console.error('얼굴 인식 오류:', error);
+}
+```
+
+#### 감정 분석 사용법
+
+```typescript
+import { analyzeEmotion, analyzeEmotionScores, EmotionType } from './ai-module';
+
+// 일기 내용
+const diaryText = "오늘은 손자와 함께 산책을 했어요. 정말 즐거운 하루였습니다.";
+
+// 단순 감정 분류
+try {
+  const emotion: EmotionType = await analyzeEmotion(diaryText);
+  console.log('감정:', emotion); // "joy", "happiness", "surprise", "sadness", "anger", "fear"
+} catch (error) {
+  console.error('감정 분석 오류:', error);
+}
+
+// 상세 감정 점수 분석
+try {
+  const emotionScores = await analyzeEmotionScores(diaryText);
+  console.log('감정 점수:', emotionScores);
+  // {
+  //   scores: { joy: 0.8, happiness: 0.9, surprise: 0.1, sadness: 0.0, anger: 0.0, fear: 0.0 },
+  //   dominantEmotion: "happiness"
+  // }
+} catch (error) {
+  console.error('감정 점수 분석 오류:', error);
+}
+```
+
+#### 얼굴 감지 사용법
+
+```typescript
+import { detectFace } from './ai-module';
+
+const imageBase64 = 'base64_encoded_image_data';
+
+try {
+  const hasFace = await detectFace(imageBase64);
+  console.log('얼굴 감지:', hasFace); // true 또는 false
+} catch (error) {
+  console.error('얼굴 감지 오류:', error);
+}
+```
+
+
+### 함수 목록
+
+#### 얼굴 인식 관련
+- `identifyPerson(targetImageBase64: string, knownPeople: Person[]): Promise<string>`
+  - 사진에서 사람을 식별합니다
+  - 반환값: "사람 이름", "모르는 사람", "사람 없음"
+
+- `detectFace(imageBase64: string): Promise<boolean>`
+  - 이미지에서 얼굴 존재 여부를 확인합니다
+  - 반환값: true (얼굴 있음) 또는 false (얼굴 없음)
+
+#### 감정 분석 관련
+- `analyzeEmotion(diaryText: string): Promise<EmotionType>`
+  - 일기 내용의 감정을 분류합니다
+  - 반환값: 6가지 감정 중 하나
+
+- `analyzeEmotionScores(diaryText: string): Promise<EmotionAnalysisResult>`
+  - 일기 내용의 상세한 감정 점수를 분석합니다
+  - 반환값: 감정 점수와 주요 감정
+
+
+### 🎨 감정 분류 기준
+
+| 감정 | 영어 | 설명 | 예시 |
+|------|------|------|------|
+| 😊 기뻐요 | joy | 즐거운 일, 성취감, 만족감 | "오늘 손자와 놀았어요" |
+| 😌 행복함 | happiness | 평온함, 만족, 안정감 | "가족들과 함께 식사했어요" |
+| 😲 놀라움 | surprise | 예상치 못한 일, 깜짝 놀란 일 | "갑자기 손자가 왔어요" |
+| 😢 슬퍼요 | sadness | 우울함, 아쉬움, 그리움 | "옛날 생각이 나요" |
+| 😠 화나요 | anger | 화남, 짜증, 분노 | "또 약을 깜빡했어요" |
+| 😰 두려워요 | fear | 걱정, 불안, 두려움 | "혼자 있기 무서워요" |
+
+---
 
 ## 🔐 보안 기능
 
