@@ -1,0 +1,109 @@
+/* 조각조각 앱 색상 시스템 */
+
+:root {
+  /* 메인 브랜드 컬러 */
+  --color-primary-50: #f0f9f4;
+  --color-primary-100: #dcf2e4;
+  --color-primary-200: #bce5cd;
+  --color-primary-300: #8dd1a8;
+  --color-primary-400: #56b67c;
+  --color-primary-500: #70c18c; /* 메인 브랜드 컬러 */
+  --color-primary-600: #4a9d6a;
+  --color-primary-700: #3a7d54;
+  --color-primary-800: #2f6445;
+  --color-primary-900: #285239;
+
+  /* 보조 컬러 */
+  --color-secondary-50: #fef7ee;
+  --color-secondary-100: #fdedd6;
+  --color-secondary-200: #fad7ac;
+  --color-secondary-300: #f6ba77;
+  --color-secondary-400: #f19440;
+  --color-secondary-500: #ed7a1a;
+  --color-secondary-600: #de5f10;
+  --color-secondary-700: #b8480f;
+  --color-secondary-800: #933814;
+  --color-secondary-900: #762f13;
+
+  /* 노인 친화적 색상 */
+  --color-elderly-warm: #f9f8f4; /* 배경색 */
+  --color-elderly-soft: #e8e5d8; /* 부드러운 회색 */
+  --color-elderly-gentle: #d4c5a9; /* 온화한 베이지 */
+
+  /* 상태별 색상 */
+  --color-status-success: #10b981;
+  --color-status-warning: #f59e0b;
+  --color-status-error: #ef4444;
+  --color-status-info: #3b82f6;
+
+  /* 중성 색상 */
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+
+  /* 텍스트 색상 */
+  --color-text-primary: #1f2937;
+  --color-text-secondary: #6b7280;
+  --color-text-tertiary: #9ca3af;
+  --color-text-inverse: #ffffff;
+
+  /* 배경 색상 */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f9fafb;
+  --color-bg-tertiary: #f3f4f6;
+  --color-bg-overlay: rgba(0, 0, 0, 0.5);
+
+  /* 테두리 색상 */
+  --color-border-light: #e5e7eb;
+  --color-border-medium: #d1d5db;
+  --color-border-dark: #9ca3af;
+}
+
+/* 다크 모드 색상 (향후 확장용) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text-primary: #f9fafb;
+    --color-text-secondary: #d1d5db;
+    --color-text-tertiary: #9ca3af;
+    --color-text-inverse: #1f2937;
+
+    --color-bg-primary: #1f2937;
+    --color-bg-secondary: #111827;
+    --color-bg-tertiary: #374151;
+    --color-bg-overlay: rgba(0, 0, 0, 0.7);
+
+    --color-border-light: #374151;
+    --color-border-medium: #4b5563;
+    --color-border-dark: #6b7280;
+  }
+}
+
+/* 유틸리티 클래스 */
+.text-primary { color: var(--color-primary-500); }
+.text-secondary { color: var(--color-secondary-500); }
+.text-success { color: var(--color-status-success); }
+.text-warning { color: var(--color-status-warning); }
+.text-error { color: var(--color-status-error); }
+.text-info { color: var(--color-status-info); }
+
+.bg-primary { background-color: var(--color-primary-500); }
+.bg-secondary { background-color: var(--color-secondary-500); }
+.bg-success { background-color: var(--color-status-success); }
+.bg-warning { background-color: var(--color-status-warning); }
+.bg-error { background-color: var(--color-status-error); }
+.bg-info { background-color: var(--color-status-info); }
+
+.border-primary { border-color: var(--color-primary-500); }
+.border-secondary { border-color: var(--color-secondary-500); }
+.border-success { border-color: var(--color-status-success); }
+.border-warning { border-color: var(--color-status-warning); }
+.border-error { border-color: var(--color-status-error); }
+.border-info { border-color: var(--color-status-info); }
+

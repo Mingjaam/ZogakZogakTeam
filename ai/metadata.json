@@ -1,0 +1,7 @@
+{
+  "name": "조각조각 - 추억기록 APP",
+  "description": "소중한 순간을 담는 추억기록 앱의 스플래시 화면과 로그인/회원가입 화면입니다.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

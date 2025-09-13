@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+# GitHub Pages에 배포하기 위한 퍼미션 설정
+permissions:
+  contents: write
+
+# 동시 배포 방지
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Build
+      run: npm run build
+      env:
+        NODE_ENV: production
+      
+    - name: Deploy to mingjaam.github.io
+      run: |
+        # mingjaam.github.io 리포지토리 클론
+        git clone https://${{ secrets.AUTO_DEPLOY }}@github.com/Mingjaam/mingjaam.github.io.git deploy-repo
+        
+        # zogakzogak 폴더 생성 및 dist 내용 복사
+        mkdir -p deploy-repo/zogakzogak
+        cp -r dist/* deploy-repo/zogakzogak/
+        
+        # 변경사항 커밋 및 푸시
+        cd deploy-repo
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Deploy zogakzogak from ${{ github.sha }}"
+        git push origin main
+        
+        # 임시 폴더 정리
+        cd ..
+        rm -rf deploy-repo
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        
