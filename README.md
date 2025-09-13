@@ -182,12 +182,12 @@ echo "GEMINI_API_KEY=your_gemini_api_key_here" > frontend/.env.local
 | 🏠 홈화면 | 💊 약 복용 알림 | 📖 일기 작성 |
 |-----------|----------------|--------------|
 | 주요 기능에 빠르게 접근 | 복용 시간 알림 제공 | 일상 기록을 간편하게 작성 |
-| <img src="이미지 경로" width="200"/> | <img src="이미지 경로" width="200"/> | <img src="이미지 경로" width="200"/> |
+| <img src="https://i.imgur.com/bWkYNSy.jpeg" width="200"/> | <img src="https://i.imgur.com/ImsH1RF.jpeg" width="200"/> | <img src="https://i.imgur.com/n1cR49L.jpeg" width="200"/> |
 
 | 📸 추억 기록 | 📝 추억 작성 | 👥 인물 찾기 |
 |--------------|--------------|--------------|
 | 사진 촬영 및 추억 저장 | 텍스트 기반 추억 기록 | AI 기반 인물 인식 기능 |
-| <img src="이미지 경로" width="200"/> | <img src="https://i.imgur.com/FUekxWq.jpeg" width="200"/> | <img src="이미지 경로" width="200"/> |
+| <img src="https://i.imgur.com/zsmChyx.jpeg" width="200"/> | <img src="https://i.imgur.com/FUekxWq.jpeg" width="200"/> | <img src="https://i.imgur.com/WgPQ50g.jpeg" width="200"/> |
 
 ---
 
