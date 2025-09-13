@@ -1,4 +1,9 @@
-# 🧩 조각조각 (Piece of Peace)
+<p align="center">
+  <img src="9e2e3090-6abb-414d-81ba-0ff0b121705d.png" alt="조각조각 로고" width="120"/>
+</p>
+
+<h1 align="center" style="color:#28A745;">조각조각</h1>
+
 
 <div align="center">
   <p><strong>노인과 보호자를 위한 추억 기록 및 관리 플랫폼</strong></p>
