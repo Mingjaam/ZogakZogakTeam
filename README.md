@@ -1,10 +1,9 @@
 <p align="center">
   <img src="https://i.imgur.com/93E05Y2.png" alt="조각조각 로고" width="120"/>
 </p>
-
 <p align="center">
   <!-- 글씨 이미지 -->
-  <img src="https://i.imgur.com/J60evuy.png" alt="조각조각 글씨" width="150/>
+  <img src="https://i.imgur.com/XiMrWYp.png" alt="조각조각 글씨" width="150/>
 </p>
 
 
