@@ -31,11 +31,89 @@
 
 
 
-## Team. 403uk
-| 이름 | [김민재](https://github.com/Mingjaam) | [김영서](https://github.com/kimyeongseo-gg) | [김채원](https://github.com/chaeone1) | [양지우](https://github.com/Stravinsken) |
-| :-: | :-: | :-: | :-: | :-: |
-| 기술 스택 | <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> | <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> | <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> | <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> |
-| 분류 | 프론트엔드 | 프론트엔드 | 프론트엔드 | 백엔드 |
+## 🧑‍🧑‍🧒‍🧒 Team. 403uk
+<div align="center">
+
+<table>
+<tr>
+<th style="background-color: #f8fafc; padding: 15px; text-align: center;">👤 <strong>팀원</strong></th>
+<th style="background-color: #f8fafc; padding: 15px; text-align: center;">🖼️ <strong>프로필</strong></th>
+<th style="background-color: #f8fafc; padding: 15px; text-align: center;">💻 <strong>기술 스택</strong></th>
+<th style="background-color: #f8fafc; padding: 15px; text-align: center;">🔧 <strong>분류</strong></th>
+</tr>
+
+<tr>
+<td align="center" style="padding: 20px;">
+<strong><a href="https://github.com/Mingjaam" style="color: #2563eb; text-decoration: none;">김민재</a></strong><br/>
+<sub>Frontend Developer</sub>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="https://avatars.githubusercontent.com/Mingjaam" width="80px" style="border-radius: 50%; border: 3px solid #2563eb;"/>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+<br/><strong>React</strong>
+</td>
+<td align="center" style="padding: 20px;">
+<span style="background-color: #dbeafe; color: #1e40af; padding: 4px 8px; border-radius: 12px; font-size: 12px; font-weight: 500;">🎨 프론트엔드</span>
+</td>
+</tr>
+
+<tr>
+<td align="center" style="padding: 20px;">
+<strong><a href="https://github.com/kimyeongseo-gg" style="color: #2563eb; text-decoration: none;">김영서</a></strong><br/>
+<sub>Frontend Developer</sub>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="https://avatars.githubusercontent.com/kimyeongseo-gg" width="80px" style="border-radius: 50%; border: 3px solid #2563eb;"/>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+<br/><strong>React</strong>
+</td>
+<td align="center" style="padding: 20px;">
+<span style="background-color: #dbeafe; color: #1e40af; padding: 4px 8px; border-radius: 12px; font-size: 12px; font-weight: 500;">🎨 프론트엔드</span>
+</td>
+</tr>
+
+<tr>
+<td align="center" style="padding: 20px;">
+<strong><a href="https://github.com/chaeone1" style="color: #2563eb; text-decoration: none;">김채원</a></strong><br/>
+<sub>Frontend Developer</sub>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="https://avatars.githubusercontent.com/chaeone1" width="80px" style="border-radius: 50%; border: 3px solid #2563eb;"/>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+<br/><strong>React</strong>
+</td>
+<td align="center" style="padding: 20px;">
+<span style="background-color: #dbeafe; color: #1e40af; padding: 4px 8px; border-radius: 12px; font-size: 12px; font-weight: 500;">🎨 프론트엔드</span>
+</td>
+</tr>
+
+<tr>
+<td align="center" style="padding: 20px;">
+<strong><a href="https://github.com/Stravinsken" style="color: #2563eb; text-decoration: none;">양지우</a></strong><br/>
+<sub>Backend Developer</sub>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="https://avatars.githubusercontent.com/Stravinsken" width="80px" style="border-radius: 50%; border: 3px solid #059669;"/>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/>
+<br/><strong>Spring Boot</strong>
+</td>
+<td align="center" style="padding: 20px;">
+<span style="background-color: #dcfce7; color: #16a34a; padding: 4px 8px; border-radius: 12px; font-size: 12px; font-weight: 500;">🔧 백엔드</span>
+</td>
+</tr>
+
+</table>
+
+</div>
+
 
 
 ## 🎯 주요 기능
