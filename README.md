@@ -1,8 +1,9 @@
 <p align="center">
-  <img src="[https://i.imgur.com/93E05Y2.png]" alt="조각조각 로고" width="120"/>
+  <img src="https://i.imgur.com/93E05Y2.png" alt="조각조각 로고" width="120"/>
 </p>
 
-<h1 align="center" style="color:#28A745;">조각조각</h1>
+# <p align="center">조각조각</p>
+
 
 
 <div align="center">
