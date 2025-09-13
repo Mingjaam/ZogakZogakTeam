@@ -307,7 +307,7 @@ echo "GEMINI_API_KEY=your_gemini_api_key_here" > frontend/.env.local
 백엔드 서버가 실행되면 Swagger UI에서 API 문서를 확인할 수 있습니다:
 
 - **Swagger UI**: http://54.180.125.150:8080/swagger-ui/index.html
-- **API Docs**: http://localhost:8080/v3/api-docs
+- **API Docs**: [http://localhost:8080/v3/api-docs](https://zogakzogak.ddns.net/swagger-ui/index.html)
 
 ### 주요 API 엔드포인트
 
