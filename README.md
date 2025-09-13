@@ -2,9 +2,10 @@
   <img src="https://i.imgur.com/93E05Y2.png" alt="조각조각 로고" width="120"/>
 </p>
 
-# <p align="center">조각조각</p>
-
-
+<p align="center">
+  <!-- 글씨 이미지 -->
+  <img src="https://i.imgur.com/J60evuy.png" alt="조각조각 글씨" width="200"/>
+</p>
 
 <div align="center">
   <p><strong>노인과 보호자를 위한 추억 기록 및 관리 플랫폼</strong></p>
