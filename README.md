@@ -4,7 +4,7 @@
 
 <p align="center">
   <!-- 글씨 이미지 -->
-  <img src="https://i.imgur.com/J60evuy.png" alt="조각조각 글씨" width="200"/>
+  <img src="https://i.imgur.com/J60evuy.png" alt="조각조각 글씨" width="100/>
 </p>
 
 <div align="center">
