@@ -195,12 +195,12 @@ echo "GEMINI_API_KEY=your_gemini_api_key_here" > frontend/.env.local
 | 🏠 홈화면 | 📷 추억 앨범 | 🗺️ 안전구역 지도 |
 |-----------|--------------|------------------|
 | 주요 기능에 빠르게 접근 | 노인의 추억 앨범 관리 | 지정된 안전구역 지도 확인 |
-| <img src="이미지 경로" width="200"/> | <img src="이미지 경로" width="200"/> | <img src="이미지 경로" width="200"/> |
+| <img src="이미지 경로" width="200"/> | <img src="https://i.imgur.com/g3WdSMX.jpeg" width="200"/> | <img src="https://i.imgur.com/Lh2oFjr.jpeg" width="200"/> |
 
 | 📍 안전구역 설정 | 📑 일기 리포트 | 👤 프로필 |
 |------------------|----------------|-----------|
 | 안전구역 추가 및 편집 | 노인의 일기 통계 및 분석 | 보호자 계정 관리 |
-| <img src="이미지 경로" width="200"/> | <img src="이미지 경로" width="200"/> | <img src="이미지 경로" width="200"/> |
+| <img src="https://i.imgur.com/HCOpe5x.jpeg" width="200"/> | <img src="https://i.imgur.com/NfWziWp.jpeg" width="200"/> | <img src="https://i.imgur.com/raFm3kG.jpeg" width="200"/> |
 
 ## 🤖 AI 기능
 
