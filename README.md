@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="9e2e3090-6abb-414d-81ba-0ff0b121705d.png" alt="조각조각 로고" width="120"/>
+  <img src="https://i.imgur.com/cYmvfwX.png" alt="조각조각 로고" width="120"/>
 </p>
 
 <h1 align="center" style="color:#28A745;">조각조각</h1>
