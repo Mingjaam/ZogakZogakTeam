@@ -1,0 +1,27 @@
+{
+  "name": "zogakzogak-ai-module",
+  "version": "1.0.0",
+  "description": "AI 모듈 - 얼굴 인식 및 감정 분석 기능",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@google/genai": "^0.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "ai",
+    "face-recognition",
+    "emotion-analysis",
+    "gemini",
+    "typescript"
+  ],
+  "author": "ZogakZogak Team",
+  "license": "MIT"
+}
