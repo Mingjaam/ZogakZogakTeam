@@ -24,7 +24,19 @@
 
 ## 📖 프로젝트 소개
 
-**조각조각**은 노인과 보호자를 위한 디지털 추억 관리 플랫폼입니다. AI 기술을 활용하여 사진을 통한 추억 기록, 약물 관리, 위치 추적 등의 기능을 제공합니다.
+**조각조각**은 치매와 인지 저하로 소중한 기억을 잃어가는 어르신들과 그들의 가족을 위해 개발된 서비스입니다.
+이 서비스는 어르신의 추억을 보존하는 역할을 하며 가족들이 함께 어르신을 보호할 수 있도록 돕는 것을 목표로합니다.
+
+주요 기능으로는 추억 기록& 추억 지도, AI 감정 분석, AI 인물 인식, 약 복용 알림, 위치 확인, 긴급 전화 연결 등이 있으며 이를 통해 어르신은 기억을 오래 간직할 수 있고 가족들은 돌봄 부담을 줄일 수 있습니다.
+
+
+
+## Team. 403uk
+| 이름 | [김민재](https://github.com/Mingjaam) | [김영서](https://github.com/kimyeongseo-gg) | [김채원](https://github.com/chaeone1) | [양지우](https://github.com/Stravinsken) |
+| :-: | :-: | :-: | :-: | :-: |
+| 기술 스택 | <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> | <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> | <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> | <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> |
+| 분류 | 프론트엔드 | 프론트엔드 | 프론트엔드 | 백엔드 |
+
 
 ### 🎯 주요 기능
 
