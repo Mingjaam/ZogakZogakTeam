@@ -5,7 +5,8 @@ import { GeminiConfig } from "./ai-types";
 
 // Gemini API 클라이언트 초기화
 export const createGeminiClient = (): GoogleGenAI | null => {
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY;
+    // 하드코딩된 API 키
+    const apiKey = 'AIzaSyBp3ZOlmfSVEJbx9WobNPVCWCYoZEBhwaw';
     
     if (!apiKey) {
         console.error("Gemini API 키가 설정되지 않았습니다.");
@@ -17,7 +18,7 @@ export const createGeminiClient = (): GoogleGenAI | null => {
 
 // 기본 Gemini 설정
 export const defaultGeminiConfig: GeminiConfig = {
-    apiKey: import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY || '',
+    apiKey: 'AIzaSyBp3ZOlmfSVEJbx9WobNPVCWCYoZEBhwaw',
     model: 'gemini-2.5-flash'
 };
 
